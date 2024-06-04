@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 18px;
+    color:black;
+    backdrop-filter: blur(20px);
+   
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+.navbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04DDB2;
+    border: none;
+    height:48px;
+    font-size: 18px;
+    width:129px ;
+    border-radius:100px;
+    color:white;
+    transition: all 0.2s ease-in-out;
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color:white;
+    background-color: #04DDB2;
+    border:none;
+    border-radius: 100px;
+    font-size: 18px;
+    height: 48px;
+    width:129px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+.nav{
+    position: fixed;
+    width:100%;
+    top:0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    margin-top: 100px;
+
+}
+h1{
+    margin: 0;
+    font-size: 64px;
+    font-weight:bolder;
+ 
+  
+}
+h2{
+
+    font-size: 30px;
+    font-weight: bolder;
+    
+
+}
+.train{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    font-size:56px;
+}
+p{
+    width:600px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.45;
+    font-size: #333;
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .tour{
+    color:#04DDB2;
+  }
+  footer{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .images{
+    height: 10px;
+  }
